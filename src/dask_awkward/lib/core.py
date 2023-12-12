@@ -1557,6 +1557,9 @@ class Array(DaskMethodsMixin, NDArrayOperatorsMixin):
         **kwargs : Any
             Additional keyword arguments passed to the `func`.
 
+        For a full description of the available parameters, see 
+        :py:func:`~dask_awkward.map_partitions`.
+
         Returns
         -------
         dask_awkward.Array
